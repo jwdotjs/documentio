@@ -93,7 +93,7 @@ function fetchSample(type, parameters) {
       return _.random(startNumber, endNumber);
     case 'string':
     case 'text':
-      var words = samples.baconIpsum.split(' ');
+      var words = samples.loremIpsum.split(' ');
       var wordCount = words.length;
       var randomLength = parameters.length && parameters.length <= wordCount ?
                          _.parseInt(parameters.length) : _.random(1, wordCount);
