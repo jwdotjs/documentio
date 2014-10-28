@@ -1,5 +1,5 @@
 {
-  "name": "Documentio",
+  "name": "documentio",
   "version": "0.1.0",
   "description": "Generate fake JSON data quickly and nest as much as you want",
   "main": "index.js",
