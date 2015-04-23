@@ -1,6 +1,6 @@
 EXAMPLE USAGE
 
-```js
+```
 var documentio = require('documentio');
 
 sampleDefinition = {
