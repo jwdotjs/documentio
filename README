@@ -1,5 +1,6 @@
 EXAMPLE USAGE
 
+```js
 var documentio = require('documentio');
 
 sampleDefinition = {
@@ -24,3 +25,4 @@ var options = {
 };
 
 var results = documentio.generate(sampleDefinition, options);
+```
